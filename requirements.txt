@@ -1,0 +1,38 @@
+# === Core Deep Learning ===
+torch
+torchaudio
+
+# === Optional (Only if your spoof model uses TensorFlow) ===
+# tensorflow
+
+# === Audio Processing ===
+librosa
+soundfile
+pydub
+scipy
+numpy
+matplotlib
+
+# === Voice Authentication ===
+resemblyzer
+webrtcvad
+numba
+
+# === Audio Recording (Platform Dependent) ===
+sounddevice
+# For PyAudio (Only install if using mic recording and needed)
+# Use pipwin below instead of pip for PyAudio on Windows
+
+# === Visual Tools (Optional) ===
+opencv-python
+
+# === API Framework ===
+fastapi
+uvicorn
+
+# === UI Framework (Optional) ===
+streamlit
+
+# === Utilities ===
+tqdm
+requests
